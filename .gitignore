@@ -1,0 +1,17 @@
+# Sólo se publican el código, la documentación y los resultados agregados.
+__pycache__/
+*.py[cod]
+.venv/
+.env*
+.ipynb_checkpoints/
+data/
+outputs/
+*.parquet
+*.joblib
+*.pkl
+*.duckdb*
+*.log
+*.csv
+!results/comparacion_modelos.csv
+!results/metricas_por_episodio.csv
+!results/metricas_alertas.csv
